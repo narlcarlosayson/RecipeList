@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sayson.narl.recipelist.Recipe2">
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/recipeName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="@string/Braised"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="175dp"
+            tools:layout_editor_absoluteY="290dp" />
+        <TextView
+            android:id="@+id/Prep2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="@string/Prep2"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="290dp" />
+
+        <TextView
+            android:id="@+id/recipeIngredients2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="Ingredients:2 tbsp olive oil
+1 wild rabbit, jointed (ask your butcher to do this for you)
+4 rashers smoked streaky bacon, chopped
+1 small red onion, finely chopped
+1 carrot
+, finely chopped
+3 garlic cloves, crushed
+2 rosemary
+ sprigs, leaves picked and chopped
+1 tbsp tomato purée
+150ml white or rosé wine
+500ml chicken stock
+500g pappardelle pasta
+zest ½ orange
+1 tbsp Dijon mustard
+100ml double cream
+small bunch flat-leaf parsley, chopped, plus a few leaves picked to serve
+grated parmesan
+, to serve"
+            tools:layout_editor_absoluteX="175dp"
+            tools:layout_editor_absoluteY="290dp" />
+
+        <TextView
+            android:id="@+id/textInstructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="Instructions:
+   Heat the oil in a large pan. When hot, add the rabbit, brown on all sides, then remove from the pan and set aside.Stir half the orange zest, mustard, cream and parsley into the rabbit sauce. Add the cooked pasta to the pan, toss everything well to coat and heat through for 1-2 mins. Serve in bowls with grated Parmesan, parsley leaves and the remaining orange zest."
+            tools:layout_editor_absoluteX="175dp"
+            tools:layout_editor_absoluteY="290dp" />
+        <TextView
+            android:id="@+id/fnishProd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="Finished Product:"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="175dp"
+            tools:layout_editor_absoluteY="290dp" />
+        <ImageView
+            android:id="@+id/imageRecipe2"
+            android:layout_width="324dp"
+            android:layout_height="265dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/braised"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </android.support.v7.widget.LinearLayoutCompat>
+</ScrollView>

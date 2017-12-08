@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">RecipeList</string>
+    <string name="Prep">PREP: 40 MINS COOK: 30 MINS</string>
+    <string name="Canno">Cannoli</string>
+    <string name="Braised">Braised rabbit pappardelle</string>
+    <string name="Prep2">PREP: 30 MINS COOK: 1 HR, 25 MINS</string>
+    <string name="Fig">Fig and prosciutto pizzettas</string>
+    <string name="Prep3">PREP: 30 MINS COOK: 20 MINS</string>
 </resources>
